@@ -1,8 +1,3 @@
-ip() {
-url='https://www.myexternalip.com/raw'
-get_ip= url,proxies=dict[http='socks5://127.0.0.1:9050',https='socks5://127.0.0.1:9050'] 
-return get_ip.txt
-}
 banner() {
 printf "\e[1;92m  #########*   \e[0m\e[1;93m                   #########*\e[0m\n"
 printf "\e[1;92m  #  #    #       # \e[0m\e[1;93m               #  #    #  \e[0m\n"
@@ -29,7 +24,10 @@ printf "\e[1;92m|———————————#—————————�
 printf "\e[1;92m|                                                 ipchanger|   \e[0m\n"
 printf "\e[1;92m\==========================================================/   \e[0m\n"
 }
-change() {
+printf "\e[1;92m Relex...\n"
+sleep 5
+printf "\e[1;92m Script is runnining...\n"
+change()
 service tor reload
 printf "\e[1;93m $x sec.       $i time\n" 
 }

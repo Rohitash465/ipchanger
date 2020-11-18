@@ -23,10 +23,10 @@ printf "\e[1;92m|                     					   |   \e[0m\n"
 printf "\e[1;92m|———————————#—————————————————#——————————————————#—————————|   \e[0m\n"
 printf "\e[1;92m|                                                 ipchanger|   \e[0m\n"
 printf "\e[1;92m\==========================================================/   \e[0m\n"
-}
 printf "\e[1;92m Relex...\n"
 sleep 5
 printf "\e[1;92m Script is runnining...\n"
+}
 change()
 service tor reload
 printf "\e[1;93m $x sec.       $i time\n" 

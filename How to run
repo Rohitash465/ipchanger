@@ -1,0 +1,3 @@
+Run below command in Terminal
+chmod +x Ipchange.sh
+./Ipchange.sh
